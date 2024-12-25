@@ -29,7 +29,7 @@ const Timeline = () => {
       width: '100%',
       maxWidth: '1200px',
       height: '50px',
-      margin: '2rem auto 0',
+      margin: '0.25rem auto 0',
       padding: '0 2rem',
       backgroundColor: 'transparent'
     }}>
