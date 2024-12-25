@@ -2,7 +2,6 @@
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 1rem;
 }
 
 .headerImage {
@@ -21,7 +20,7 @@
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  white-space: pre-wrap;
+  font-size: 1.2rem;
 }
 
 .prediction {
