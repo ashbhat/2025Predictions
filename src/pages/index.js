@@ -19,17 +19,17 @@ export default function Home() {
         <div className={styles.content}>
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>January</div>
-            <p>AI continues to dominate headlines as new breakthroughs in multimodal models emerge. Major tech companies announce significant AI-first product updates.</p>
+            <p>January brings significant political and technological changes: On January 3rd, the new Congress convenes, followed by a nationwide TikTok ban on January 19th, and DJT&apos;s inauguration on January 20th. The month also sees the first Formula E race in Mexico and major developments in the ongoing legal battle between Elon Musk and OpenAI.</p>
           </div>
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>February</div>
-            <p>Global climate initiatives gain momentum as extreme weather events increase. New international agreements on emissions reduction are proposed.</p>
+            <p>February kicks off with the Grammy Awards on February 1st, followed by anticipated Super Bowl advertisements on February 9th. Later in the month, NASA astronauts Suni Williams and Butch Wilmore make their return to Earth aboard a SpaceX spacecraft, concluding their extended mission to the International Space Station.</p>
           </div>
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>March</div>
-            <p>Breakthrough in quantum computing reaches headlines as a major tech company achieves quantum advantage in a practical application.</p>
+            <p>The entertainment industry takes center stage as the Academy Awards ceremony unfolds on March 2nd, celebrating the year&apos;s finest achievements in cinema.</p>
           </div>
 
           <div className={styles.prediction}>
@@ -39,17 +39,17 @@ export default function Home() {
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>May</div>
-            <p>Revolutionary breakthrough in renewable energy storage technology announced. Major automotive companies accelerate their EV timelines.</p>
+            <p>May brings celestial spectacle with a total lunar eclipse on the 14th. The month also sees high-profile legal proceedings with the commencement of the Diddy Trial.</p>
           </div>
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>June</div>
-            <p>Global cryptocurrency regulations begin to harmonize as major economies agree on common framework. New use cases for blockchain emerge.</p>
+            <p>June marks two significant events: The FIFA World Cup kicks off in the United States, bringing global football excitement, while in Paris, the historic Notre-Dame cathedral reopens its doors to tourists after years of restoration.</p>
           </div>
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>July</div>
-            <p>Breakthrough in personalized medicine using AI leads to new treatment approaches. Healthcare sees increased adoption of AI diagnostic tools.</p>
+            <p>Scientists predict a peak of 115 sunspots in July, which could create spectacular auroras but also pose risks to global infrastructure, potentially causing outages in GPS systems, radio communications, and electrical grids.</p>
           </div>
 
           <div className={styles.prediction}>
@@ -64,7 +64,7 @@ export default function Home() {
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>October</div>
-            <p>Breakthrough in fusion energy research announces major milestone. New timeline for commercial fusion power generation revealed.</p>
+            <p>The gaming world anticipates a major milestone with the release of Grand Theft Auto 6, one of the most eagerly awaited video game releases in recent years.</p>
           </div>
 
           <div className={styles.prediction}>
@@ -74,7 +74,7 @@ export default function Home() {
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>December</div>
-            <p>Major breakthrough in autonomous vehicle technology leads to expanded self-driving car services in major cities worldwide.</p>
+            <p>The year concludes with a cinematic spectacle as Avatar 3 arrives in theaters, continuing James Cameron&apos;s groundbreaking science fiction saga.</p>
           </div>
         </div>
       </main>
