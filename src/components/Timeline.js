@@ -28,7 +28,7 @@ const Timeline = () => {
       position: 'relative',
       width: '100%',
       maxWidth: '1200px',
-      height: '100px',
+      height: '50px',
       margin: '2rem auto 1.5rem',
       padding: '0 2rem',
       backgroundColor: '#f8f8f8',
