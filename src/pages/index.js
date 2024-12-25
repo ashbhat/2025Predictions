@@ -5,9 +5,18 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>2025 Predictions</title>
+        <title>Predicting 2025</title>
         <meta name="description" content="Predictions for the year 2025" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Predicting 2025" />
+        <meta property="og:description" content="Predictions for the year 2025" />
+        <meta property="og:image" content="https://2025predictions.com/images/2025-header.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://2025predictions.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Predicting 2025" />
+        <meta name="twitter:description" content="Predictions for the year 2025" />
+        <meta name="twitter:image" content="https://2025predictions.com/images/2025-header.jpg" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.container}>
