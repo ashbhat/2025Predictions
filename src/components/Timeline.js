@@ -29,25 +29,18 @@ const Timeline = () => {
       width: '100%',
       maxWidth: '1200px',
       height: '100px',
-      margin: '3rem auto',
+      margin: '2rem auto 1.5rem',
       padding: '0 2rem',
       backgroundColor: '#f8f8f8',
       borderRadius: '8px',
       boxShadow: '0 1px 3px rgba(0,0,0,0.1)'
     }}>
       <div style={{
-        position: 'absolute',
-        left: '1.5rem',
-        top: '-1.5rem',
-        fontWeight: 'bold',
-        fontSize: '1.2rem'
-      }}>2025</div>
-      <div style={{
         position: 'relative',
         width: '100%',
         height: '6px',
         backgroundColor: '#e0e0e0',
-        marginTop: '3rem',
+        marginTop: '2rem',
         borderRadius: '3px'
       }}>
         {events.map((ev, idx) => (
@@ -55,19 +48,27 @@ const Timeline = () => {
             key={idx}
             style={{
               position: 'absolute',
-              top: '-10px',
+              top: '-20px',
               left: `${getYearPercent(ev.date)}%`,
-              width: '3px',
-              height: hoveredEvent === ev ? '30px' : '26px',
-              backgroundColor: hoveredEvent === ev ? '#000' : '#444',
+              width: '20px',  // Wider touch target
+              height: '46px', // Taller touch target
+              backgroundColor: 'transparent', // Make the touch target invisible
               cursor: 'pointer',
               transform: 'translateX(-50%)',
-              borderRadius: '1.5px',
-              transition: 'height 0.2s, background-color 0.2s'
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center'
             }}
             onMouseEnter={() => setHoveredEvent(ev)}
             onMouseLeave={() => setHoveredEvent(null)}
           >
+            <div style={{
+              width: '3px',
+              height: hoveredEvent === ev ? '30px' : '26px',
+              backgroundColor: hoveredEvent === ev ? '#000' : '#444',
+              borderRadius: '1.5px',
+              transition: 'height 0.2s, background-color 0.2s'
+            }}></div>
             {hoveredEvent === ev && (
               <div style={{
                 position: 'absolute',
