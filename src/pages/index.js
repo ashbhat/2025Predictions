@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/predictions.module.css'
+import Timeline from '../components/Timeline'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
           alt="2025 Predictions Header"
           className={styles.headerImage}
         />
+        <Timeline />
         <div className={styles.content}>
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>January</div>
