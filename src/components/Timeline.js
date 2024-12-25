@@ -28,7 +28,7 @@ const Timeline = () => {
       position: 'relative',
       width: '100%',
       maxWidth: '1200px',
-      height: '50px',
+      height: '20px',
       margin: '2rem auto 0',
       padding: '0 2rem',
       backgroundColor: 'transparent'
@@ -46,10 +46,10 @@ const Timeline = () => {
             key={idx}
             style={{
               position: 'absolute',
-              top: '-20px',
+              top: '-8px',
               left: `${getYearPercent(ev.date)}%`,
               width: '20px',  // Wider touch target
-              height: '46px', // Taller touch target
+              height: '20px', // Taller touch target
               backgroundColor: 'transparent', // Make the touch target invisible
               cursor: 'pointer',
               transform: 'translateX(-50%)',
@@ -62,7 +62,7 @@ const Timeline = () => {
           >
             <div style={{
               width: '3px',
-              height: hoveredEvent === ev ? '30px' : '26px',
+              height: hoveredEvent === ev ? '14px' : '12px',
               backgroundColor: hoveredEvent === ev ? '#000' : '#444',
               borderRadius: '1.5px',
               transition: 'height 0.2s, background-color 0.2s'
