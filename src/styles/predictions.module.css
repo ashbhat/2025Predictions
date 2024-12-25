@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.headerImage {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 0 1.5rem;
+}
+
+.monthHeader {
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.prediction {
+  margin-bottom: 2rem;
+}
