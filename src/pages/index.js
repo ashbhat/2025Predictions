@@ -19,7 +19,7 @@ export default function Home() {
         <div className={styles.content}>
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>January</div>
-            <p>January brings significant political and technological changes: On January 3rd, the new Congress convenes, followed by a nationwide TikTok ban on January 19th, and DJT's inauguration on January 20th. The month also sees the first Formula E race in Mexico and major developments in the ongoing legal battle between Elon Musk and OpenAI.</p>
+            <p>January brings significant political and technological changes: On January 3rd, the new Congress convenes, followed by a nationwide TikTok ban on January 19th, and DJT&apos;s inauguration on January 20th. The month also sees the first Formula E race in Mexico and major developments in the ongoing legal battle between Elon Musk and OpenAI.</p>
           </div>
 
           <div className={styles.prediction}>
@@ -29,7 +29,7 @@ export default function Home() {
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>March</div>
-            <p>The entertainment industry takes center stage as the Academy Awards ceremony unfolds on March 2nd, celebrating the year's finest achievements in cinema.</p>
+            <p>The entertainment industry takes center stage as the Academy Awards ceremony unfolds on March 2nd, celebrating the year&apos;s finest achievements in cinema.</p>
           </div>
 
           <div className={styles.prediction}>
@@ -74,7 +74,7 @@ export default function Home() {
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>December</div>
-            <p>The year concludes with a cinematic spectacle as Avatar 3 arrives in theaters, continuing James Cameron's groundbreaking science fiction saga.</p>
+            <p>The year concludes with a cinematic spectacle as Avatar 3 arrives in theaters, continuing James Cameron&apos;s groundbreaking science fiction saga.</p>
           </div>
         </div>
       </main>
