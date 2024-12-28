@@ -57,7 +57,7 @@ export default function Home() {
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>June</div>
-            <p>June marks two significant events: The FIFA World Cup kicks off in the United States, bringing global football excitement, while in Paris, the historic Notre-Dame cathedral reopens its doors to tourists after years of restoration.</p>
+            <p>June 2025 brings new opportunities and developments across various sectors.</p>
           </div>
 
           <div className={styles.prediction}>

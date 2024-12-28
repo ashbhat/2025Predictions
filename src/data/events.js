@@ -15,8 +15,6 @@ export const events = [
   { date: '2025-05-14', title: 'Total Lunar Eclipse' },
   
   // June Events
-  { date: '2025-06-01', title: 'FIFA World Cup Begins' }, // Approximate date for June
-  { date: '2025-06-15', title: 'Notre-Dame Cathedral Reopens' }, // Approximate date for June
   
   // July Events
   { date: '2025-07-15', title: 'Peak of 115 Sunspots Predicted' }, // Approximate date for July
