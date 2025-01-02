@@ -26,6 +26,11 @@
   color: #666;
   padding: 0 1.5rem;
   font-weight: normal;
+  text-decoration: none;
+}
+
+.subtitle:hover {
+  text-decoration: underline;
 }
 
 .content {

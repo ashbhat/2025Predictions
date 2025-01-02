@@ -29,7 +29,7 @@ export default function Home() {
           className={styles.headerImage}
         />
         <h1 className={styles.mainTitle}>Predicting 2025</h1>
-        <h2 className={styles.subtitle}>Published January 1st, 2025</h2>
+        <a href="https://github.com/ashbhat/2025Predictions" className={styles.subtitle}>Published January 1st, 2025</a>
         <Timeline />
         <div className={styles.content}>
           <div className={styles.prediction}>
