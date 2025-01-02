@@ -26,8 +26,8 @@ export default function Home() {
           alt="2025 Predictions Header"
           className={styles.headerImage}
         />
-        <h1 className={styles.mainTitle}>The Year of Intelligence</h1>
-        <h2 className={styles.subtitle}>Predicting 2025</h2>
+        <h1 className={styles.mainTitle}>Predicting 2025</h1>
+        <h2 className={styles.subtitle}>Published January 1st, 2025</h2>
         <Timeline />
         <div className={styles.content}>
           <div className={styles.prediction}>
