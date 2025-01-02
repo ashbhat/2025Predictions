@@ -37,12 +37,12 @@ export default function Home() {
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>February</div>
-            <p>February kicks off with the Grammy Awards on February 1st, followed by anticipated Super Bowl advertisements on February 9th. Later in the month, NASA astronauts Suni Williams and Butch Wilmore make their return to Earth aboard a SpaceX spacecraft, concluding their extended mission to the International Space Station.</p>
+            <p>February kicks off with the Grammy Awards on February 1st, followed by the Super Bowl with major advertisements that use generative AI. Later in the month, NASA astronauts Suni Williams and Butch Wilmore make their return to Earth aboard a SpaceX spacecraft, concluding their extended mission to the International Space Station.</p>
           </div>
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>March</div>
-            <p>The entertainment industry takes center stage as the Academy Awards ceremony unfolds on March 2nd, celebrating the year&apos;s finest achievements in cinema.</p>
+            <p>The entertainment industry takes center stage as the Academy Awards ceremony unfolds on March 2nd, celebrating the year&apos;s finest achievements in cinema. In addition, SpaceX attempts a starship to starship refueling in low earth orbit in a major televised event.</p>
           </div>
 
           <div className={styles.prediction}>
@@ -57,12 +57,12 @@ export default function Home() {
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>June</div>
-            <p>June 2025 brings new opportunities and developments across various sectors.</p>
+            <p>In June, the FIFA Club World Cup is held in the United States. In addition, WWDC is held with the announcment of new advances in AI. The Supreme Court also releases their major decisions.</p>
           </div>
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>July</div>
-            <p>Scientists predict a peak of 115 sunspots in July, which could create spectacular auroras but also pose risks to global infrastructure, potentially causing outages in GPS systems, radio communications, and electrical grids.</p>
+            <p>In July, the sun is noticibly more active with more sunspots that usual. This is experienced in Earth with auroras being seen in parts of the world that otherwise would not.</p>
           </div>
 
           <div className={styles.prediction}>
@@ -72,22 +72,22 @@ export default function Home() {
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>September</div>
-            <p>Significant advances in sustainable agriculture technology help address global food security concerns. Vertical farming adoption accelerates.</p>
+            <p>Zuckerburg takes the stage at Meta Connect to deliver a keynote that unveils new AR glasses. These glasses show off a display and is available for consumers to purchase.</p>
           </div>
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>October</div>
-            <p>The gaming world anticipates a major milestone with the release of Grand Theft Auto 6, one of the most eagerly awaited video game releases in recent years.</p>
+            <p>GTA 6 is released after a long wait. Internet culture picks up on the video game by creating many memes.</p>
           </div>
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>November</div>
-            <p>Revolutionary developments in brain-computer interfaces lead to new medical applications. Ethics debates intensify around neurotechnology.</p>
+            <p>Revolutionary developments in brain-computer interfaces lead to new medical applications. Ethics debates intensify around artificial intelligence as agents create a more direct threat to existing knowledge work jobs.</p>
           </div>
 
           <div className={styles.prediction}>
             <div className={styles.monthHeader}>December</div>
-            <p>The year concludes with a cinematic spectacle as Avatar 3 arrives in theaters, continuing James Cameron&apos;s groundbreaking science fiction saga.</p>
+            <p>The year concludes with a cinematic spectacle as Avatar 3 arrives in theaters, continuing James Cameron&apos;s science fiction saga.</p>
           </div>
         </div>
       </main>

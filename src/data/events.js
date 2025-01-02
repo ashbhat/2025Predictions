@@ -10,18 +10,25 @@ export const events = [
   
   // March Events
   { date: '2025-03-02', title: 'Academy Awards Ceremony' },
-  
-  // May Events
-  { date: '2025-05-14', title: 'Total Lunar Eclipse' },
+  { date: '2025-03-15', title: 'SpaceX Starship Refueling Demo' },
   
   // June Events
+  { date: '2025-06-01', title: 'FIFA Club World Cup' },
+  { date: '2025-06-10', title: 'WWDC 2025' },
+  { date: '2025-06-30', title: 'Supreme Court Major Decisions' },
   
   // July Events
-  { date: '2025-07-15', title: 'Peak of 115 Sunspots Predicted' }, // Approximate date for July
+  { date: '2025-07-15', title: 'Peak Solar Activity' },
+  
+  // September Events
+  { date: '2025-09-15', title: 'Meta Connect - AR Glasses Launch' },
   
   // October Events
-  { date: '2025-10-15', title: 'Grand Theft Auto 6 Release' }, // Approximate date for October
+  { date: '2025-10-15', title: 'GTA 6 Release' },
+  
+  // November Events
+  { date: '2025-11-15', title: 'AI Ethics Debates Intensify' },
   
   // December Events
-  { date: '2025-12-15', title: 'Avatar 3 Release' } // Approximate date for December
+  { date: '2025-12-15', title: 'Avatar 3 Release' }
 ];
